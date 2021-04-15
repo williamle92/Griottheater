@@ -1,0 +1,121 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: ". img schedule readmore ."
+        ". line1 line1 line1 ."
+        ". img2 schedule2 readmore2 ."
+        ". line2 line2 line2 ."
+        ". img3 schedule3 readmore3 ."
+        ". line3 line3 line3 ."
+        ". img4 schedule4 readmore4 ."
+        ". line4 line4 line4 .";
+
+    height: 70vh;
+    
+    
+}
+
+.img {
+    grid-area: img;
+}
+
+.schedule {
+    grid-area: schedule;
+    line-height: 2;
+    
+}
+
+.readmore {
+    grid-area: readmore;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.schedule2 {
+    grid-area: schedule2;
+    line-height: 2;
+}
+
+.readmore2 {
+    grid-area: readmore2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.schedule3 {
+    grid-area: schedule3;
+    line-height: 2;
+}
+
+.schedule4 {
+    grid-area: schedule4;
+    line-height: 2;
+}
+
+.readmore3 {
+    grid-area: readmore3;
+}
+
+.readmore4 {
+    grid-area: readmore4;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.line1 {
+    grid-area: line1;
+    width: 100%;
+    height: 0%;
+}
+.line2 {
+    grid-area: line2;
+    width: 100%;
+    height: 0%;
+}
+.line3 {
+    grid-area: line3;
+    width: 100%;
+    height: 0%;
+}
+.line4 {
+    grid-area: line4;
+    width: 100%;
+    height: 0%;
+}
+
+.img, .img2, .img3, .img4, .readmore, .readmore2, .readmore3, .readmore4, .schedule, .schedule2,.schedule3, .schedule4 {
+    justify-self: center;
+    align-self: center;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.flexbox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.test {
+    width: 43vw;
+    height: 35px;
+    border: solid .5px;
+    background-color: hsl(0, 10%, 98%);
+    margin-left: 28vw;
+}
+
+#date {
+    margin: 0;
+    padding-left: 10%;
+    padding-top: .6%;
+    font-size: 20px;
+}
